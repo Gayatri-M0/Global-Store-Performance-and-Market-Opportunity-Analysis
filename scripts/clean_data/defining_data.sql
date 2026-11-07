@@ -1,3 +1,24 @@
+/*
+===============================================================================
+Purpose: Define the structure of analytical tables in the clean_data schema.
+
+Actions Performed:
+    1. Drop existing tables if they already exist.
+    2. Create tables with appropriate column names and data types.
+    3. Include audit columns to track data creation timestamps.
+
+Tables Created:
+    1. customer
+    2. date
+    3. orderrows
+    4. orders
+    5. sales
+    6. currencyexchange
+    7. product
+    8. store
+===============================================================================
+*/
+
 IF OBJECT_ID ('clean_data.customer', 'U') IS NOT NULL
 	DROP TABLE clean_data.customer;
 CREATE TABLE clean_data.customer(
