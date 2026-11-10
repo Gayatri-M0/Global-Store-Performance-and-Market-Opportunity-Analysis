@@ -3,10 +3,8 @@ An SQL-based analysis of a global electronics retailer focused on evaluating sto
 
 ---
 
-## 1. Dataset Resource
-The dataset for Global Store Performance and Market Opportunity Analysis is downloaded from Maven Analytics website.
-https://mavenanalytics.io/data-playground/global-electronics-retailer
+## 1. Data Source
+Github Website: 
 
----
+## 2. Data Process
 
-## 2. Data Cleaning
