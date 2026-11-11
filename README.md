@@ -35,10 +35,19 @@ The main goal of any small-scale and large-scale business to have minimum loss a
 Notion: https://app.notion.com/p/Global-Store-Performance-and-Market-Opportunity-Analysis-3f1fc53e494c8093a9add5f2c777ac81?source=copy_link
 
 ## Repository Structure
+```
 Global-Store-Performance-and-Market-Opportunity-Analysis/
-```dataset```
-```scripts```
-  
-```.gitignore```
-```LICENSE```
-```README.md```
+├── dataset
+├── scripts
+    ├── init.database.sql
+    ├── raw_data/
+        ├── defining_data.sql
+        └── data_load.sql
+    ├── clean_data
+        ├── defining_data.sql
+        └── data_load/
+    └── business questions/
+├── .gitignore
+├── LICENSE
+└── README.md
+```
